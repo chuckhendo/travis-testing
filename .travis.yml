@@ -12,3 +12,4 @@ deploy:
   file: 'release/test.css'
   on:
     repo: chuckhendo/travis-testing
+    tag: true
