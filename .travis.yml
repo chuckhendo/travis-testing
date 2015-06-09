@@ -3,9 +3,9 @@ node_js:
     - 0.10
 before_install:
     - "npm install -g gulp"
-deploy:
-  before_deploy:
+script:
     - "gulp build"
+deploy:
   provider: releases
   api_key:
     secure: F0oMOAhu8f1+tOxEyJ9qj0xlLj4uNtyvFqYJstblmTukYIROpnz/TuYtNz+wz8nZq+W3z7ttuOWA4tQOywcFbBQScOlfN5n2OufEXkVVuB9ioHd05ZHSNnCCjnoNrSIQjDSX22busqD1/D1J8CEoYizPIz6+BrUfv0+eL9q/CWHeb0co3kGeXFuni2UNsWuCJUhrLvbKasPl15yA4ax52e/MO/OtXpGjpze9yVRxZMR9/7N6np2DgfdbKEITosF3dsVb8KbR+WR7LTpQTACBmRiETO/EfmAK9Yua5wNd6qEgs1rH4igCwu5mGZX3Z3NTLOxGeeCTTwd+U7vtvr7FJs6ssJYhA0hYrOcPKUA1yb3Qc2lMrXYYokzgAHuisTbrm7gZthOUsuNR9gdmqgiE1OCr89eSwGg6sMfkeHPS1zHvsvKf8o2x0R+Gn/+3dMsifKcdBhD3vAO0NAuMb7LTEAr3qbav03sjHNSCK0RmvRYHkNYSj/DPk/TU9zXxuAjvC/S1LKVx4ZoA7goTUFBhOTQOyxwgN/p3PvVbkNex0tsusN7Uw9NBZvY9m9FCi17neFqaI+eROvo3ZcWJpZjqAPMW3Z+HSD5jcW3DF4dGzFPVg2tA+WBNpttKJZuYScx8A6f1F67YT9NS5JFVhhXH9eOaKHOP0I5JZoP2CszVhWo=
